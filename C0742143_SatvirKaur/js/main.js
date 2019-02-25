@@ -19,3 +19,6 @@ var bear = {
     noisy: true,
     deadly: true
 };
+var message = "Hello word";
+var x = message.toLowerCase();
+document.write(x + "<p>");
