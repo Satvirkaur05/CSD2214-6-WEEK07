@@ -22,3 +22,8 @@ var bear = {
 var message = "Hello word";
 var x = message.toLowerCase();
 document.write(x + "<p>");
+var days = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
+
+for (var i = 0; i < days.length; i++) {
+    document.write(days[i]+ "<p>");
+}
